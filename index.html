@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="tl">
 <head>
-  <meta charset="UTF-8">
-  <title>eBook Library</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tagalog eBooks</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>📚 Aking eBook Library</h1>
+  <h1>📚 Tagalog eBooks</h1>
 </header>
 
-<div class="books">
-  <div class="book">
-    <img src="https://via.placeholder.com/150">
-    <h3>Alamat ng Gabi</h3>
-    <a href="ebook1.pdf" target="_blank">Basahin</a>
+<section class="stories">
+  <div class="story" onclick="openStory('story1')">
+    <h3>Ang Multo sa Lumang Bahay</h3>
+    <p>Genre: Horror</p>
   </div>
 
-  <div class="book">
-    <img src="https://via.placeholder.com/150">
-    <h3>Pag-ibig sa Ulap</h3>
-    <a href="ebook2.pdf" target="_blank">Basahin</a>
+  <div class="story" onclick="openStory('story2')">
+    <h3>Paano Yumaman sa Maliit na Kita</h3>
+    <p>Genre: Motivation</p>
   </div>
-</div>
+</section>
 
+<script src="script.js"></script>
 </body>
 </html>
